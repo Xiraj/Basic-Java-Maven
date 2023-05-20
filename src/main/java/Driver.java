@@ -15,6 +15,14 @@ public class Driver {
 		counter.decrement();
 		
 		System.out.println("Decrement Result:" + counter.getCount());
+
+		counter.divide(2);
+		
+		System.out.println("Divide Result:" + counter.getCount());
+
+		counter.decrement(4);
+		
+		System.out.println("Divide Result:" + counter.getCount());
 		
 	}
 
