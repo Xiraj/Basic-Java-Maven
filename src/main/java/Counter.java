@@ -19,10 +19,6 @@ public class Counter {
 	public void decrement() {
 		count--;
 	}
-
-	public void divide() {
-		count = count / 2;
-	}
 	
 	public int getCount() {
 		return count;
