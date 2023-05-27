@@ -13,12 +13,12 @@
 </dependencies>
 	
 <distributionManagement>
-	<repository>
-		<id>github</id>
-		<name>Github Package</name>
-		<url>https://maven.pkg.github/Xiraj/Basic-Java-Maven</url>
-	</repository>
-</distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>GitHub Packages</name>
+      <url>https://maven.pkg.github.com/Xiraj/Basic-Java-Maven</url>
+    </repository>
+  </distributionManagement>
   
   <properties>
      <maven.compiler.source>1.8</maven.compiler.source>
